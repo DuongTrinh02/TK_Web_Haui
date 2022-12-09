@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="de1.css">
+    <title>Đề 1</title>
+</head>
+<script src="de1.js"></script>
+<body>
+    <div id="header">
+        <p>BÀI KIỂM TRA SỐ 2</p>
+    </div>
+    <div id="flex_container">
+        <div id="menu">
+            <ul class="nav">
+                <li><a href="#">Lập trình Java</a></li>
+                <li>
+                    <a href="#">Thiết kế web</a>
+                    <ul class="subnav">
+                        <li><a href="#">Tài liệu HTML</a></li>
+                        <li><a href="#">Tài liệu CSS</a></li>
+                        <li><a href="#">Tài liệu JavaScript</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Lập trình C#</a></li>
+                <li><a href="#">Lập trình web</a></li>
+                <li><a href="#">Lập trình hướng đối tượng</a></li>
+                <li><a href="#">Cơ sở dữ liệu</a></li>
+            </ul>
+        </div>
+        <div id="section">
+            <form action="#" class="forms">
+                <div class="container">
+                    <label class="label-spacing" for="name">Họ và tên</label>
+                    <input type="text" id = "name" placeholder="Họ tên">
+                </div>
+                <div class="container">
+                    <label class="label-spacing" for="add">Địa chỉ</label>
+                    <input type="text" id = "add" placeholder="Địa chỉ">
+                </div>
+                <div class="container">
+                    <label class="label-spacing" for="">Giới tính</label>
+                    <label for="male">Nam</label>
+                    <input name="gender" type="radio" id="male">
+                    <label for="female">Nữ</label>
+                    <input name="gender" type="radio" id="female">
+                    <label for="other">Khác</label>
+                    <input name="gender" type="radio" id="other" checked>
+                </div>
+                <div class="container">
+                    <label class="label-spacing" for="">Sở thích</label>
+                    <label for="milk">Sữa</label>
+                    <input type="checkbox" id="milk">
+                    <label for="buoi">Chè bưởi</label>
+                    <input type="checkbox" id="buoi">
+                    <label for="pho">Phở</label>
+                    <input type="checkbox" id="pho">
+                </div>
+                <input type="submit" value="Kiểm tra" class="btn-submit" onclick=" check()">
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <p>BẢN QUYỀN THUỘC VỀ TEST 2</p>
+    </div>
+    
+
+</body>
+</html>

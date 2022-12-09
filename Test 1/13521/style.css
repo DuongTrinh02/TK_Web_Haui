@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+#container {
+    width: 80%;
+    height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    border: gray solid 1px;
+    height: 10%;
+}
+.mucgiua {
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+
+}
+.mucgiua ,.muc p,h3 {
+    color: red;
+}
+.muc {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.anh {
+    width: 25%;
+}
+.chu1 {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.chu0  p {
+    color: green;
+}
+
+.body {
+    margin-top: 12px;
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+.menu {
+    width: 20%;
+}
+.menu >ul , .c2>ul{
+    width: 100%;
+    height: 100%;
+    background-color: #0066cc;
+    display: flex;
+    flex-direction: column;
+}
+.menu >ul>li, .c2>ul>li {
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: white solid 1px;
+    height: 16.7%;
+    width: 100%;
+}
+.menu >ul>li {
+    position: relative;
+}
+.menu >ul>li>a, .c2>ul>li>a {
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+    width: 100%;
+}
+.menu >ul>li:hover {
+    background-color: #00ffcc;
+}
+li:hover .c2 {
+    display: block;
+}
+.c2 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+.content {
+    margin-left: 12px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: gray solid 1px;
+}
+.mot, .hai, .ba {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mot {
+    width: 35%;
+    height: 100%;
+}
+.tieude span{
+    color: white;
+    font-size: 20px;
+}
+.hai {
+    width: 35%;
+    height: 100%;
+}
+.nd {
+    width: 100%;
+    display: flex;
+}
+.ba {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.box {
+    width: 75%;
+    height: 10%;
+    background-color: #0066cc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box >h4 {
+    color: white;
+}
+.img {
+    width: 75%;
+}
+img:hover {
+    border: red solid 2px;
+}
+.logo {
+    width: 60%;
+}

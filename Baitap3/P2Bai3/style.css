@@ -1,0 +1,20 @@
+.box {
+    text-align: center;
+    background-color: rgb(228, 224, 224);
+    box-shadow: 4px 2px 10px black;
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px ;
+}
+
+h1 {
+    color: green;
+}
+
+p {
+    margin-left: 30px;
+}
+
+.CT {
+    margin: 0 20px;
+}

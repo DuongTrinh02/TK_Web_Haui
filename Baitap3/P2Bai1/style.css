@@ -1,0 +1,15 @@
+.bgr {
+    background-color: rgb(120, 236, 238);
+    margin: 0 300px;
+    height: 150px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    margin-left: 40px;
+}

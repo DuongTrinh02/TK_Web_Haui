@@ -1,0 +1,11 @@
+h1 {
+    color: #4caf04;
+    text-align: center;
+}
+
+p {
+    text-indent: 50px;
+    margin: 0 50px;
+    word-spacing: 3px;
+    text-align: justify;
+}

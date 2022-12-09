@@ -1,0 +1,26 @@
+h1 {
+    color: #f39;
+    text-align: center;
+    margin: 0 400px ;
+    background-color: #fecffd;
+}
+
+#main {
+    background-color: antiquewhite;
+    text-align: center;
+    font-style: italic;
+    margin: 0 400px ;
+}
+
+.doan1 {
+    color: blue;
+    
+}
+
+.doan2 {
+    color: rgb(255, 0, 60);
+}
+
+.doan3 {
+    color:darkgreen;
+}

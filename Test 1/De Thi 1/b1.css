@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#container {
+    width: 60%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #336699;
+    height: 80px;
+}
+.header__trai{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__giua{
+    width: 60%;
+    height: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ininput {
+    height: 40%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+input {
+    border: none;
+    height: 100%;
+    width: 50%;
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+select {
+    border: none;
+    height: 100%;
+    width: 30%;
+    font-size: 14px;
+}
+button {
+    width: 20%;
+    border: none;
+    height: 100%;
+    background-color: rgb(27, 31, 56);
+    color: white;
+}
+.header__phai{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.gioHang{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 0 0.6px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.menu{
+    width: 20%;
+
+}
+.menu >ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu >ul>li {
+    height: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: gray;
+
+}
+
+a {
+     text-decoration: none;
+     color: black;
+     padding: 8px;
+ }
+
+.menu >ul>li:first-child {
+
+    background-color: cornflowerblue;
+    border: none;
+}
+.menu >ul>li:first-child a{
+    color: white;
+}
+
+.menu >ul {
+    position: relative;
+}
+
+.cap2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.body {
+    width: 100%;
+    display: flex;
+}
+.content{
+
+}
+

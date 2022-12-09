@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+
+#header {
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+#flex_container {
+    display: flex;
+}
+
+#menu {
+    flex: 1;
+}
+
+.nav {
+    list-style-type: none;
+}
+
+.nav li {
+    background-color: rgb(172, 35, 49);
+    height: 46px;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 10px;
+}
+
+.nav>li:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.nav>li:hover>a {
+    color: yellow;
+}
+
+.subnav {
+    position: absolute;
+    right: -160px;
+    top: 0;
+    display: none;
+}
+
+.subnav li {
+    list-style-type: none;
+    width: 160px;
+}
+
+.subnav>li:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.subnav>li:hover>a{
+    color: yellow;
+}
+
+
+
+
+.nav li:hover .subnav {
+    display: block;
+}
+
+#section {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms {
+    background-color: blue;
+    padding: 50px 400px;
+    border-radius: 20px;
+}
+
+.container {
+    margin-bottom: 12px;
+}
+
+.container .label-spacing {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 12px;
+}
+
+.container label {
+    color: white;
+}
+
+.forms .btn-submit {
+    margin-left: 154px;
+    padding: 5px;
+}
+
+#footer {
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
